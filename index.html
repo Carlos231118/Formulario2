@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario Registro</title>
+</head>
+<body>
+  <section class="form-register">
+    <h1>FORMULARIO DE INGRESO DEL CBTIS 229</h1>
+    <hr>
+        <div><br>
+            <label for="usuario">Nombre(s):</label>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <label for="usuario">Apellido(s):</label>
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        </div>
+        <div>
+            <label for="email">Direccion email:</label>
+            <input class="controls" type="text" name="Direccion email" id="Direccion email" placeholder="Ingrese su email">
+            <label for="contraseña"> Ingresar contraseña:</label>
+            <input class="controls" type="text" name="contraseña" id="Ingresar contraseña" placeholder="Ingrese su contraseña">    
+        </div>
+        <div>
+            <label for="Especialidad">Selecciona tu especialidad:</label><br> 
+            <select name="Especialidad">
+                <option value="TE">Programacion</option>
+                <option value="VA">Alimentos</option>
+                <option value="BA">Contabilidad</option>
+                <option value="M">Electricidad</option>
+                <option value="M">Logistica</option>
+                <option value="M">Construccion</option>
+                <option value="" selected="selected">Selecciona especialidad...</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="Semestre">Selecciona tu semestre:</label><br> 
+            <select name="Semestre">
+                <option value="TE">1° semestre</option>
+                <option value="VA">3° semestre</option>
+                <option value="BA">5° semestre</option>
+            </select>
+        </div><br>
+        <div>Talleres: <br>
+            <input type="checkbox" id="Futbol" name="Talleres" value="Futbol">
+            <label for="Futbol">Futbol</label><br>
+            <input type="checkbox" id="Ajedres" name="Talleres" value="Ajedres">
+            <label for="Ajedres">Ajedres</label><br>
+            <input type="checkbox" id="Rondalla" name="Talleres" value="Rondalla">
+            <label for="Rondalla">Rondalla</label><br>
+            <input type="checkbox" id="Basquetbol" name="Talleres" value="Basquetbol">
+            <label for="Basquetbol">Basquetbol</label><br>
+            <input type="checkbox" id="Voleyboll" name="Talleres" value="voleibol">
+            <label for="voleibol">Voleibol</label><br>
+        </div><br>
+        <div>Sexo: <br>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="sexo" value="femenino">
+            <label for="femenino">Femenino</label><br>
+        </div><br>
+            <input type="submit" name="submit" value="Enviar informacion">
+            <input type="reset" name="reset" value="Limpiar formulario">
+        </div><br>
+</form>
+  </section>
+
+</body>
+</html>

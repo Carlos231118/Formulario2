@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        background-image: url("fondo.jpg");
+        }
+    .form-register {
+    width: 500px;
+    background: #6d6d6b;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+    }
+
+    
+    .controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    
+    }
+    input[type=checkbox] {
+        transform: scale(1.05);
+      }
+
